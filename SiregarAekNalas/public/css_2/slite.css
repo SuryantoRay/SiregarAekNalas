@@ -1,0 +1,129 @@
+body {
+    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+    font: normal 16px sans-serif;
+}
+.imglist{
+    padding: 100px 0px 0px 0px;
+}
+
+.fancybox-caption{
+    color: white;
+    font-family: arial;
+    font-size: 21px;
+}
+
+.aaaa{
+    width: 95%;
+    margin: 1% auto;
+    background-color: #fff;
+    color: #35373a;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    height: 260px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+.map {
+    margin: 5% auto;
+}
+
+.thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(91, 92, 94, 0.75);
+    width: 100%;
+    border-radius: 50px;
+    height: 260px;
+    padding: 2%;
+    display: none;
+    text-align: center;
+    color: #fff !important;
+    z-index: 2;
+}
+
+.space{
+    margin-bottom: 20px;
+    font-family: Verdana;
+    font-size: 28px;
+}
+
+.foto {
+    margin-top: 2px;
+    margin-bottom: 5%;
+    width: 70%;
+    height: 284px;
+}
+
+.garis {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.saran1 {
+    padding: 20px 20px 20px 20px;
+}
+
